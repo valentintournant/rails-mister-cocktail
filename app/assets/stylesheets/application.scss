@@ -11,3 +11,11 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.bg-img {
+  background-image: asset-url('cocktails-blender.jpg');
+  color: white;
+  font-size: 50px;
+  height: 50vh;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,9 @@
+.my-grid {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.grid-col {
+  grid-column: 1fr;
+}
